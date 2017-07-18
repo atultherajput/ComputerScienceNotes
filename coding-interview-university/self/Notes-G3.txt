@@ -1,0 +1,97 @@
+Algorithmic complexity / Big-O / Asymptotic analysis:-
+
+
+Harvard CS50 - Asymptotic Notation (video):-
+Big-O - For worst case
+Big-Omega (Ω) - For best case
+Theta (Θ) - When worst case equals to best case.
+O(n^2) < O(n). O(n^2) algorithm will take more time than O(n) algorithm.
+But it might be possible that for smaller input O(n^2) will be faster than O(n). But for larger size input O(n^2) will be always slower than O(n).
+O(logn) used in binary search.
+
+Big O Notations (general quick tutorial) (video):-
+O(1)- Ex: adding item in array. This will run in O(n).
+O(n)- Ex: performing linear search. As size of input (length of array) increase the time increase.
+O(n^2)- Ex: performing bubble sort (i.e. any nested loop)
+O(log n)- Ex: performing binary search.( i.e data being used is decreased roughly by 50% each time through algorithm.)
+O(n log n)- Ex: performing quick sort.
+
+Big O Notation (and Omega and Theta) - best mathematical explanation (video):-
+Big Oh: f(n) is O(g(n)) if there is Constant (C) and initial value (n') and f(n) <= C g(n) for all n>n'
+Big Omega (Ω): f(n) is Ω(g(n)) if there is Constant (C) and initial value (n') and f(n) >= C g(n) for all n>n'
+Theta (Θ): f(n) is Θ(g(n)) if  f(n) is O(g(n)) and f(n) is also Ω(g(n)).
+log2(8)=3 means 2^x=8 i.e. 3(value of x)
+
+Skiena:-
+Counter Example: If there is a solution but you cannot find it by your procedure.
+RAM (Random Access Machine) Model of computation.
+1. g(n)=O(f(n)) means C x f(n) is an upper bound on g(n).
+2. g(n)=Ω(f(n)) means C x f(n) is a lower bound on g(n).
+3. g(n)=Θ(f(n)) means C1 x f(n) is an upper bound on g(n) and C2 x f(n) is a lower bound on g(n). This also know as tight bound.
+And C, C1, C2 are all constant independent of n. It is only valid for values greater than n0 (threshold).
+Multiplication-
+1. O(c · f(n)) → O(f(n))
+2. O(f(n)) ∗ O(g(n)) → O(f(n) ∗ g(n))
+
+A Gentle Introduction to Algorithm Complexity Analysis:-
+ Worst-case analysis- that's nothing more than just considering the case when we're the most unlucky.
+From the terms that we are considering, we'll drop all the terms that grow slowly and only keep the ones that grow fast as n becomes larger.
+The second thing we'll ignore is the constant multiplier in front of n, and so our function will become f( n ) = n.
+This filter of "dropping all factors" and of "keeping the largest growing term" as described above is what we call asymptotic behavior.
+Simple programs can be analyzed by counting the nested loops of the program. A single loop over n items yields f( n ) = n. A loop within a loop yields f( n ) = n2. A loop within a loop within a loop yields f( n ) = n3.
+If we have a program that calls a function within a loop and we know the number of instructions the called function performs, it's easy to determine the number of instructions of the whole program.
+Given a series of for loops that are sequential, the slowest of them determines the asymptotic behavior of the program. Two nested loops followed by a single loop is asymptotically the same as the nested loops alone, because the nested loops dominate the simple loop.
+We call this function, i.e. what we put within Θ( here ), the time complexity or just complexity of our algorithm.
+We say that a Θ( 1 ) algorithm is a constant-time algorithm, Θ( n ) is linear, Θ( n2 ) is quadratic and Θ( log( n ) ) is logarithmic.
+Programs with a bigger Θ run slower than programs with a smaller Θ.
+O-complexity of an algorithm gives an upper bound for the actual complexity of an algorithm.
+Θ gives the actual complexity of an algorithm, we sometimes say that the Θ gives us a tight bound.
+A complexity bound that is not tight, we can also use a lower-case o to denote that.
+If an algorithm is Θ( n ), then its tight complexity is n. Then this algorithm is both O( n ) and O( n2 ). As the algorithm is Θ( n ), the O( n ) bound is a tight one. But the O( n2 ) bound is not tight, and so we can write that the algorithm is o( n2 ).
+It's easier to figure out the O-complexity of an algorithm than its Θ-complexity.
+Ω gives us a lower bound for the complexity of our algorithm.
+Similarly to ο, we can write ω if we know that our bound isn't tight.
+O and Omega can give tight bonds as well as non-tight bond.
+Asymptotic comparison operator            Numeric comparison operator
+Our algorithm is o( something )              A number is < something
+Our algorithm is O( something )             A number is ≤ something
+Our algorithm is Θ( something )             A number is = something
+Our algorithm is Ω( something )             A number is ≥ something
+Our algorithm is ω( something )             A number is > something
+While all the symbols O, o, Ω, ω and Θ are useful at times, O is the one used more commonly, as it's easier to determine than Θ and more practically useful than Ω.
+A logarithm is an operation applied to a number that makes it quite smaller – much like a square root of a number.
+Logarithms are the inverse operation of exponentiating something.
+A Θ( n ) algorithm takes about a second to process the input for n = 1,000,000.
+Improving the asymptotic running time of a program often tremendously increases its performance, much more than any smaller "technical" optimizations such as using a faster programming language.
+An optimal algorithm is an algorithm that solves a problem in the best possible way, meaning there are no better algorithms for this.
+Complexity of mergeSort is Θ( n * log( n ) ).
+The Linux kernel uses a sorting algorithm called heapsort.
+
+ Orders of Growth (video):-
+As input size grow the running time also grow.
+Focus on dominating term and ignore lower order term.
+
+Asymptotics (video):-
+Asymptotic notations, allow us to put upper and lower bounds on functions.
+
+UC Berkeley Big O (video):-
+
+UC Berkeley Big Omega (video):-
+
+ Amortized Analysis (video):-
+Potential Function is something that's gathering up value that's not necessarily paid on the current operation but maybe it's some costs that were gathering up into some function that will go into some how spread out over all our operations.
+
+Illustrating "Big O" (video):-
+If f(n)=O(g(n)) AND f(n)=Ω(g(n)) that means f(n)=Θ(g(n)) and vice versa.
+
+Computational Complexity: Section 1:-
+All polynomials of order k are O(Nk).
+If an algorithm is O(N2), it is also O(N5).
+Each comparision-based sorting algorithm is  Ω(N log N).
+f (N) = Θ(N): linear
+f (N) = Θ(log N): logarithmic
+f (N) = Θ(N2): quadratic
+f (N) = Θ(N3): cubic
+f (N) = O(Nk) for some k: polynomial
+f (N) = Ω(2N): exponential
+For graph problems, the complexity  Θ(N + M) is known as "linear in the graph size".

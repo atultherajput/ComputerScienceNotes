@@ -1,0 +1,44 @@
+http://www.pythontutor.com/visualize.html#mode=edit
+
+ABC (Always Be Coding):
+Master at least one multi-paradigm language.
+Know thy complexities.
+Should implement the most common data structures in your language of choice.
+Spend hours coding solutions to different types of words problems.
+
+Whiteboarding:
+Slow-down, chill-out, and try to write as neatly as possible.
+Ask questions while solving like what are the constraints, memory, runtime, size of inputs, etc.
+Talk through what you are doing and what your thought process is while solving problem.
+Break up your code when working on the whiteboard. Code how you’d normally code.
+Check your work and handles unusual inputs and edge cases.
+Practice at home.
+
+Effective Whiteboarding during Programming Interviews:
+Notes and figures on the side.
+Write Clearly and Use the Space Efficiently.
+Instead of overwriting or crossing out code, it’s better to erase and re-write that part of the code.
+
+Demystifying Tech Recruiting:
+Connect
+Share your work.
+Recruiter Screen>Techinical Screen>Onsite Interview>Interviewer Debrief>Candidate Review>Offer.
+
+Cracking The Coding Interview:
+How CS Resume Sholud Look- One Page only, Short(1-2 line columns), Focuss on Accomplishments,3-4 Project, no objectives and summaries.
+Startups- List it as a project if it not incorporated
+How to Study- Study the basics, Practice solving questions, Push yourself!, Write code on paper
+Data Structures- How to implement and Where to use(pros/cons).
+Linked Lists, Stacks, Queues, Trees, Tries, Graphs, Vectors, Heaps, Hastables(Most Imp.)
+Algorithms- Implementation, Space vs. Time Complexity
+Quick Sort, Merge Sort, Binary Search, BFS, DFS (Imp.), Tree - Insert/Find (Very Imp.).
+Concepts: Not just a concept- know how to code!
+Threading, Probability + Combinatorics, Memory Management, Recursion (Imp), System Design & Scalability (Imp), Bit Manipulation (Imp).
+Behaviour Questions, Product Design Questions, Estimation Questions.
+Technical Questions- Ask lots of Questions to remove ambiguity and Not make Assumptions, Talk out loud to show what you think, Think critically, Check your algorithm really work, Know its space and time complexity, Code slowly and methodically and Test your code.
+Evaluation is Relative, not Absolute.
+
+How to Get a Job at the Big 4:
+Get An Interview Somehow- Apply with resume, Programming Challenges, Referrals.
+Do Well On The Interview- Mock Interviews in group of 2-3(Very Imp.).
+
