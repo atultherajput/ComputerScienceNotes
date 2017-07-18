@@ -1,0 +1,33 @@
+﻿Don't feel you aren't smart enough
+The myth of the Genius Programmer
+- There is no such thing as a perfect programmer who writes bug free code alone in a cave. So don’t be afraid of making mistakes.
+- Things to keep in mind are low ego, accepting criticism, practising a lot and do code reviews.
+- Be in an environment where you are the small fish.
+- Fail Quickly: It's good to fail but we need to get back at again trying the alternative quickly. And never repeat same mistakes.
+- Don’t be too late in involving others in your project. Don’t be too early either.
+- [REQUIRES WORK] Document failure: We need to document where we failed, we will try making this a habit.
+- Fun thing BUS FACTOR - if a person on team gets hit by bus, how badly would it affect the code. Keep your bus factor as high you can. Get as many people as you can to understand your code.
+- Writing software that actually is successful is a collaborative activity.
+- DROP YOUR EGO
+- Be proud of the stuff you are working on.
+
+
+
+It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech
+- Coding is a communal process. It also involves a lot of failures.
+- People who suffer from “Imposter Syndrome” think they are not qualified enough and hence avoid the social aspects of programming.
+- [DONE] Build a support system.
+- [DONE] Track your Progress.
+- Look for positives and avoid negatives.
+- Help Others. Give positive feedback and don’t create negative space.
+* How do you even know someone has impostor syndrome in the first place?
+* ‘... some people will avoid pair programming entirely because they are so afraid of that …’ - partly relatable. 
+* ‘... some do not help with OSS …’ - It is voluntary. I don’t help with it because reading through abstruse  (abstruse - something that is hard to understand) code isn’t my cup of tea. Between getting the job done and contributing to open source just for the sake of contributing, I’d rather do the former.
+* “...even though there is plenty of programming jobs available…” - maybe in that part of the world, or even at that time (it is a 2014 video)
+* “...some of them don’t apply for jobs…” - because applying for jobs is basically Russian roulette.
+* Most of the stuff about the speaker not applying for an internship or a full time position is quite relatable.  
+* As much as you might want to follow HackerSchool’s manual[a], the effort required to follow it isn’t worth it. 
+* Kill your heroes. Excellent advice. 
+
+
+[a]What's that?
