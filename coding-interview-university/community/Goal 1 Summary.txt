@@ -21,13 +21,10 @@ It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech
 - Look for positives and avoid negatives.
 - Help Others. Give positive feedback and don’t create negative space.
 * How do you even know someone has impostor syndrome in the first place?
-* ‘... some people will avoid pair programming entirely because they are so afraid of that …’ - partly relatable. 
+* ‘... some people will avoid pair programming entirely because they are so afraid of that …’ - partly relatable.
 * ‘... some do not help with OSS …’ - It is voluntary. I don’t help with it because reading through abstruse  (abstruse - something that is hard to understand) code isn’t my cup of tea. Between getting the job done and contributing to open source just for the sake of contributing, I’d rather do the former.
 * “...even though there is plenty of programming jobs available…” - maybe in that part of the world, or even at that time (it is a 2014 video)
 * “...some of them don’t apply for jobs…” - because applying for jobs is basically Russian roulette.
-* Most of the stuff about the speaker not applying for an internship or a full time position is quite relatable.  
-* As much as you might want to follow HackerSchool’s manual[a], the effort required to follow it isn’t worth it. 
-* Kill your heroes. Excellent advice. 
-
-
-[a]What's that?
+* Most of the stuff about the speaker not applying for an internship or a full time position is quite relatable.
+* As much as you might want to follow HackerSchool’s manual, the effort required to follow it isn’t worth it.
+* Kill your heroes. Excellent advice.
