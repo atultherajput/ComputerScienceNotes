@@ -1,0 +1,33 @@
+
+ Singly Linked Lists (video):-
+List Operation
+PushFront(key) - 	add to front - 		O(1)
+Key TopFront() - 	return front item - 	O(1)
+PopFront() - 		remove front item - 	O(1)
+PushBack(Key) - 	add to back - 		O(n) in case of no tail - 		O(1) with tail
+Key TopBack() - 	return back item - 	O(n) in case of no tail - 		O(1) with tail
+PopBack() - 		remove back item - 	O(n) in case of singly linked list and O(1) in case of doubly linked list.
+Boolean Find(Key) - 	is key in list - 		O(n)
+Erase (Key) - 		remove key from list - 	O(n)
+Boolean Empty() - 	empty list? - 		O(1)
+AddBefore(Node, Key) - add key before node - 	O(n) in case of singly linked list and O(1) in case of doubly linked list.
+AddAfter (Node, Key) - 	adds key after node. - 	O(1)
+
+Core Linked Lists Vs Arrays (video):-
+Linked list are not stored in contiguous location in memory, So we cannot use the index to directly access any one element in constant time.
+Sentinel or dummy nodes are empty nodes. We insert these dummy nodes at the beginning and at the end of the list. These dummy nodes don't store any data. And head and tail are pointed towards this nodes.
+
+In The Real World Linked Lists Vs Arrays (video):-
+Reading an array is constant time whereas reading in a list is linear time
+In general, arrays are faster to read, and lists are faster to write.
+
+why you should avoid linked lists (video):-
+Random access of one node to another node in linked list maximises cache misses.
+
+Doubly-linked List:-
+Doubly-Linked List have both next pointer and previous pointer and therefore we can go forward and backward.
+Constant time to insert at or remove from the front.
+With tail and doubly-linked, constant time to insert at or remove from the back.
+O(n) time to find arbitrary elemnt.
+List elements need not be contiguous.
+With doubly-linked list, constant time to insert between nodes or remove a node.
