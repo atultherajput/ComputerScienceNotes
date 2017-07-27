@@ -1,0 +1,137 @@
+﻿**NOTE - Things not included from goal 2 here were pretty subjective to people like choosing a programming language, books, daily plan etc.
+Interview Process & General Interview Prep
+ABC: Always Be Coding
+- Master at least one multi-paradigm language.
+- Implement DS in that language on your own
+- Know thy complexities and concepts (he gave a list of things you should know in the language)
+- Spend hours coding solutions to different types of words problems.
+- Authors approach to learn(IMPORTANT):
+1. Understand concepts form topcoder
+2. Practice them for around 2 weeks from TOPCODER PROBLEM ARCHIVE
+3. Solve problems blindfolded
+
+
+
+
+Whiteboarding
+- Practice Whiteboard coding by writing your codes at home on a whiteboard or notebook and then implementing it to see what mistakes you made
+- Write Neatly: So that interviewer understands it easily, and you can focus properly
+- Code how you would normally code: Don’t write a 50 line function. Break code into smaller function on whiteboard too.
+- Ask questions while solving like what are the constraints, memory, runtime, size of inputs, etc to remove ambiguity.
+-  Talk through what you are doing and what your thought process is while solving problem.
+- Check your work: Test your whiteboard code with sample input. Things to consider while selecting sample input
+1. Edge cases and unusual inputs.
+2. Most errors happen at termination
+- Whatever code you write on whiteboard do run and check it on PC.
+
+
+
+
+Effective Whiteboarding during Programming Interviews
+- Make notes about the question, constraint requirements and figures in a corner side.
+- Be ready to edit the code(erase not overwriting or striking), it’s better to erase and rewrite that part of the code.
+- Use space effectively: From the start understand how much space you have on the board. Life Pro Tip - Divide code into functions to use space effectively.
+
+
+
+
+
+Demystifying Tech Recruiting
+
+
+ The Recruitment Process.png 
+
+
+
+- Interview != black box
+- Connect with people.
+- Share your work online to get recognised by recruiters
+- Try to make bond with the recruiter they will be with you throughout.
+
+
+
+
+Cracking The Coding Interview Set 1:
+Gayle L McDowell - Cracking The Coding Interview (video)
+- Slides 
+- Your performance is judged relative to how others answered the same question, so don’t stress if you think you didn’t do well.
+- The interviewer’s reaction does not reflect on your performance but rather their personality
+- How CS Resume Should Look: 
+1. One Page only 
+2. Short(1-2 line columns) 
+3. Focus on Accomplishments
+4. Present things in a quantifiable manner
+5. 3-4 Project
+6. No objectives and summaries.
+7. Startups- List it as a project if it not incorporated. 
+- How to Study: 
+1. Avoid wasting time on unnecessarily complex algorithms.
+2. Study the basics 
+3. Practice solving questions 
+4. Push yourself! 
+5. Write code on paper not on a computer.
+        - What to Study:
+* Know Data Structures- How to implement and Where to use(pros/cons).
+* Linked Lists, Stacks, Queues, Trees, Tries, Graphs, Vectors, Heaps, Hash-Tables (Most Imp).
+* Algorithms- Implementation, Space vs. Time Complexity.
+* Quick Sort, Merge Sort, Binary Search, BFS, DFS (Imp.), Tree - Insert/Find (Very Imp.).
+* Concepts: Not just a concept- know how to code!
+* Threading, Probability + Combinatorics, Memory Management, Recursion (and its space complexity) (Imp), System Design & Scalability (Imp), Bit Manipulation (Imp).
+        - Types of “Serious” Questions (apart from behavioral questions):
+* Product Design Questions (sometimes)
+* Estimation Questions (rarely)
+* Software Engineering Questions
+   * Coding & Algorithms
+   * Object Oriented Design
+   * Scalability
+
+
+Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)
+- Technical Questions (from the second small 9min video):
+1. Ask lots of Questions to remove ambiguity and not make Assumptions 
+2. Talk out loud to show what you think
+3. Think critically 
+4. Check your algorithm really works 
+5. Know its space and time complexity 
+6. Code slowly and methodically 
+7. Test your code.
+
+
+ How to Get a Job at the Big 4:
+How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)
+        - Prepare a good resume.
+- Get An Interview Somehow: 
+1. Apply with resume 
+2. Programming Challenges 
+3. Referrals. 
+- Prepare specifically for interview with friends call them at home learn few topics
+yourself and ask them to learn some other and do mock interviews.
+        - If you don’t apply in BIG Companies you would never get a job.
+        - Try in companies as many times it won't be added to your resume.
+- Do Well On The Interview.
+- MOCK INTERVIEWS in group of 2-3.(V.Very Imp.)
+Before you Get Started
+List down the final strats you learned from this section:
+- Spaced repetition is the key. Watch different videos on same topic at intervals.
+- Flashcards in Anki to revise the theory. (Anki tutorial: https://www.youtube.com/watch?v=PxHji1wxxjE)
+- Catalog for DS and algo: We already have a catalog that jwashm prepared but we will prepare our own.
+
+
+Prerequisite Knowledge
+How does CPU execute program (video)
+-  Program Load: Hard Disks -> RAM -> CPU.
+-  4 Main Operations: Fetch>Decode>Execute>Write Back.
+- Computer understands only binary code, so program we write present in hard disk is FETCHED then DECODED to binary then EXECUTED and output is written back.
+  
+Machine Code Instructions (video)
+- Machine code instructions usually consist of Operation Code (Opcode) and Operand or sometimes just the Op Code. All these are binary codes.
+- Machine code program consists of a sequence of Opcodes and Operands stored in RAM.
+- Two types of Addressing:
+* Immediate Addressing : The data to be manipulated comes immediately after the Op Code. Example - “LD A, 07H” here the data 07H comes immediately after the Opcode LD A.
+* Implied Addressing : The data to be manipulated is already present in place, for example into a register in CPU. Example - “INC A”, and CPU already has some value in register A.
+
+
+  
+
+
+----------------------We done with setup. Now let’s start with the real work.----------------------

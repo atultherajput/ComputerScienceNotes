@@ -1,0 +1,16 @@
+Stack is abstract data type with push(key), key top() and key pop() operations.
+Stacks can be implemented with either an array or a linked list.
+Each stack operation is O(1): Push, Pop, Top, Empty.
+Stacks are ocassionaly known as LIFO queues.
+
+ Using Stacks Last-In First-Out (video):-
+ Almost every langauge have builtin class for stack. Ex:- In python we use list.append() and list.pop() methods.
+
+Using Queues First-In First-Out(video):-
+Queue is FIFO and mostly used in multi-threading.
+In python we use queue with get and put method.
+
+Priority Queues (video):-
+They are like normal queue but are sorted according to priority.
+Deque is double ended queue i.e. elements can be inserted or deleted from both ends.
+Python have no builtin function for queue but it have collections.deque class for deque.

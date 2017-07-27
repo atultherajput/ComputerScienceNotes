@@ -1,0 +1,32 @@
+﻿Description: Arrays
+
+
+* Arrays (video):-
+1. Array is contiguous area of memory consisting of equal-size elements (of the same type) indexed by contiguous integers.
+2. Constant-time access to any element. (Go to def for array)
+3. Address of element at index i = array_addr + elem_size x (i-first_index).
+4. Constant Time i.e. O(1) to Add or Remove at the End.
+5. Linear Time i.e. O(n) to Add or Remove at beginning or middle.
+* UCBerkley CS61B - Linear and Multi-Dim Arrays (video):-
+1. Two-dimensional array: An array of references to arrays.
+2. Can extend to multiple dimensions.
+* Basic Arrays (video):- 
+1. Simple arrays generally are zero-based index, fixed size(immutable) and specific data type.
+2. We should use immutable arrays (i.e. Arrays of fixed size and data types) because they are very fast, smaller and efficient than dynamic arrays.
+* Multi-dim (video):-
+1. Multidimensional arrays are array of arrays. That means each element of array are itself an array. It can be represented in form of table/matrix. Ex:- arr[row][column]. Here dimension means grouping or nesting information/data.
+2. Dimensions in arrays should not be confused with the dimensions in physics. Arrays can in fact have more than 3 dimensions.
+* Dynamic Arrays (video):- 
+1. Array whose size can be changed after initialization.
+2. Dynamically-allocated arrays :- Here we actually allocate the array, determining the size of that array at runtime and it gets allocated from dynamic memory.
+3. Dynamic arrays or resizeable array:- It’s an abstract data type where we store a pointer rather than directly storing a reference to our dynamically allocated array. And replace it with a newly-allocated array as needed.
+* Jagged Arrays (video):-
+1. Array of arrays. The array elements of the array can be of unequal size.
+2. It is quite similar to 2-dimension i.e. array of arrays. But here each row can store unequal amount of data unlike 2-dimension which have consistent length of rows.
+3. 2-D array is also called rectangular array.
+* Resizing arrays (video);- 
+1. Re-sizable array or dynamic array or mutable array and are same.
+2. Ex:- Standard array of JavaScript and Ruby, Vector in C++, ArrayList in java and NSMutableArray in Objective-C.
+3. List in Python is a data structure whose not an array but it has equivalent behavior of mutable array.
+4. In Python to add element at the end of list:- "list.append(value)" and for specific index we use:- "list.insert(i,value)".
+5. And to delete at the end we use:- "list.pop()" and for a specific index we use:- "del list[i]" and "list.pop(i)" or for a specific value:- "list.remove(value)".

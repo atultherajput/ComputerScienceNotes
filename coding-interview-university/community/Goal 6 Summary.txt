@@ -1,0 +1,28 @@
+﻿Stack
+Stacks (video):-
+* Stacks can be implemented with either an array or a linked list.
+* Each stack operation is O(1): Push, Pop, Top, Empty.
+* Stacks are occasionally known as LIFO queues.
+* Use of stack: Balanced bracket problem. You are given a bracket set Ex. “(([]))” - this is balanced, another example is “((]])” these are unbalanced bracket. We will go through these bracket strings and push in the open brackets ie ‘(’ or ‘[’ and when a close bracket ‘]’ or ‘)’ is present in string we will pop it. If the popped bracket complements the close bracket that made it to pop. ie if we encounter a closing bracket ( and the popped is ) then it works or else the brackets are not balanced. Keep on with push and pop operations traversing the string and if string is traversed fully and stack is empty then set is balanced
+* Using Stacks Last-In First-Out (video):-
+* Almost every language have builtin class for stack. Ex:- In python we use list.append() and list.pop() methods.
+         * Queue
+Using Queues First-In First-Out(video):-
+* Queue is FIFO and mostly used in multi-threading.
+* In python we use queue with get and put method.
+
+
+Queue (video):-
+* Imagine it like a bank queue.
+* Uses: 1)  Printer takes input in a queue for printing job 2) Process scheduling 
+Circular buffer/FIFO:-
+* Overcome disadvantage of queue wherein we cannot use the empty space removing of element without initializing the variables again.
+* In circular queue last position is connected back to the first position to make a circle.
+* Advantages : empty space can filled using rear pointer
+* Uses : 1) Memory management 2) Traffic management 3) CPU scheduling
+Priority Queues (video):-
+* Priority Queues are like normal queue but are sorted according to priority (when enqueue happens).
+* Deque is double ended queue i.e. elements can be inserted or deleted from both ends.
+* Python have no builtin function for queue but it have collections. deque class for deque.
+* C++ has inbuilt functionality for priority queue.
+* Uses . 1) Shortest Remaining Time First (SRTF) Algorithm 2) Event Simulation

@@ -1,0 +1,86 @@
+﻿Singly Linked Lists (video) :
+A singly linked list is made up of nodes. Each node contains 1. The item 2. Link to the next node
+There is a head which points to the first node of the list
+List of Operation
+* PushFront(key) -                 add to front -                 O(1)
+* Key TopFront() -                 return front item -         O(1)
+* PopFront() -                         remove front item -         O(1)
+* PushBack(Key) -                 add to back -                 O(n) without tail -         O(1) with tail
+* Key TopBack() -                 return back item -         O(n) without tail -         O(1) with tail
+* PopBack() -                         remove back item -         O(n) in case of singly linked list and O(1) in case of doubly linked list.
+* Boolean Find(Key) -                 is key in list -                 O(n)
+* Erase (Key) -                         remove key from list - O(n)
+* Boolean Empty() -                 empty list? -                 O(1)
+* AddBefore(Node, Key) -         add key before node - O(n) in case of singly linked list and O(1) in case of doubly linked list.
+* AddAfter (Node, Key) -         adds key after node. - O(1)
+
+
+CS 61B - Linked Lists 1 (video):
+* Disadvantages of arrays
+   * Inserting elements at front or middle is O(n) operation.
+   * Arrays (static ones) have a fixed size
+* Linked List is a Recursive data type. It is made up of nodes, with each node referring to the next.
+* Disadvantages of Linked Lists
+   * Finding the nth item in a list is a O(n) operation
+* Disadvantages of starting the Linked List with a node object
+   * If two pointers (heads) both point to the first element and an operation is done which changes one of these nodes (heads), the changes are not accessible via the other node. (e.g. when inserting an element at the beginning)
+   * An empty list will have to be represented by pointing the head to NULL. This may cause issues when trying to call functions on this list. (especially in Java)
+* To avoid these issues, we can have two separate classes, one for nodes, say SListNode and one for first object say SList. The SList class will store the head of the list, along with it’s size.
+
+
+CS 61B - Linked Lists 2 (video)
+* Singly Linked List can be implemented as an Abstract Data Type.
+* Invariants in SList ADT
+   * “size” is always correct.
+   * List is never circularly linked.
+Both of these are insured as fields of SList such as head and size are private and none of the methods return an SListNode.
+* Doubly Linked List
+   * Each node has a pointer to the previous element along with one to the next.
+   * Insertion and deletion at both ends of the doubly linked list can be done in constant time.
+* Circularly linked Doubly Linked List
+   * A sentinel node, of type DListNode is created. It’s value section stores null. It’s next points to the first element in the List and it’s prev points to the last element.
+   * The DList object store the size of the list and the head (which points to the sentinel node)
+   * The prev of the first element points to the sentinel node, so does the next of the last element, forming a circle.
+* Invariants in circularly linked DList ADT
+   * Head is never equal to NULL.
+   * For any node, next is never equal to NULL.
+   * For any  node, prev is never equal to NULL.
+   * If x.next == y, then y.prev == x
+   * If x.prev == y, then y.next == x
+   * The size variable has the number of nodes, not counting the sentinel node
+* For an empty list, the next and prev of the sentinel node point to itself
+
+
+
+C Code (video):
+*  To implement a singly linked list in C, we can create a struct with two variables, one to store the value of the element, other to store a pointer to the next element.
+
+
+Linked List vs Arrays:
+Core Linked Lists vs Arrays (video) :
+* Linked list are not stored in contiguous location in memory, So we cannot use the index to directly access any one element in constant time.
+* Sentinel or dummy nodes are empty nodes. We insert these dummy nodes at the beginning and at the end of the list. These dummy nodes don't store any data. And head and tail are pointed towards this nodes.These nodes were created to make sure none of our actual nodes ever point to null. Avoiding null helps avoid errors where we try to access the value of a null node.
+
+
+
+In The Real World Linked Lists vs Arrays (video) :
+* Reading an array is constant time whereas reading in a list is linear time
+* In general, arrays are faster to read, and lists are faster to write.
+Why you should avoid linked lists (video):
+Random access of one node to another node in linked list maximises cache misses.
+Vectors(resizable arrays) are upto 90x faster than linked lists for insertion of element in the middle somewhere, but we studied that linked lists are better to write and vector are better to read. The problem faced here is - for performing insertion of element at a place we need to first traverse to that place in a linked list, in case of array its constant time. Next, for linked list it just needs to point the previous element to the newly added node and the pointer of the newly added node to the next element, but for vector upon insertion at some place - array needs to perform shifting operation in all subsequent positions. So we assume that linked lists should be faster. But NO, because of the way cache works in the modern computers - cache is great at moving through contiguous memory ie array, but it is bad at moving from one place to another in memory. Now looking at this we realise - when we are moving towards the point of insertion - linked lists nodes are distributed all over the memory and cache needs to move through all the places where the pointers of the nodes point to and this is very very slow for the cache, as a result of this we see that insertion operation takes a big time hit in case of linked lists.
+
+
+
+
+Pointers to Pointers:
+In line with pointers, pointers to pointers, point to a pointer which in turn points to the variable of the data type [pointer to pointer -> pointer -> variable]. They are declared using two ** symbols instead instead of one.
+When deleting a node in a list, using pointer to pointer eliminates the need for storing an extra variable to keep track of the previous node. But this also adds unnecessary complexity to the code and is not recommended. 
+* * Doubly-linked List
+   * Description (video):-
+Doubly-Linked List have both next pointer and previous pointer and therefore we can go forward and backward.
+Constant time to insert at or remove from the front.
+With tail and doubly-linked, constant time to insert at or remove from the back.
+O(n) time to find arbitrary element.
+List elements need not be contiguous.
+With doubly-linked list, constant time to insert between nodes or remove a node.
